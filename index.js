@@ -10,7 +10,7 @@ const institutes = {
     'BVRITH': 'Bachupally',
     'BVRITN': 'Narsapur',
     'VIT': 'Bhimavaram',
-    'SVECW': 'Bhimavaram',
+    'SVECW': 'bhimavaram',
 }
 
 app.get('/location', async (req, res) => {
