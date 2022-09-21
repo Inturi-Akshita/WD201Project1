@@ -1,0 +1,31 @@
+### GET FRIENDs
+GET http://localhost:8383/location
+
+### GET FRIEND
+GET http://localhost:8383/location/BVRITH
+
+### ADD A FRIEND
+POST http://localhost:8383/addlocation
+Content-Type: application/json
+
+{
+    "name" : "VIT",
+    "status" : "Bhimavaram"
+}
+
+### UPDATE STATUS OF A FRIEND
+PATCH http://localhost:8383/changelocation
+Content-Type: application/json
+
+{
+    "name" : "Vedic",
+    "newStatus" : "Aziz Nagar"
+}
+
+###DELETE A FRIEND
+DELETE http://localhost:8383/location
+Content-Type: application/json
+
+{
+    "name": "Vedic"
+}
